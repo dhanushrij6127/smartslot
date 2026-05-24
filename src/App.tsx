@@ -40,7 +40,6 @@ const FALLBACK_SLOTS: Record<number, any[]> = {
 const BIZ_TYPES   = ["Gym", "Restaurant", "Salon", "Clinic", "Coaching", "Turf", "Spa", "Other"];
 const FILTER_TYPES = ["All", "Gym", "Salon", "Turf", "Spa", "Coaching", "Restaurant", "Clinic", "Other"];
 const CATEGORIES  = ["Fitness", "Beauty", "Sports", "Wellness", "Education", "Dining", "Other"];
-const STATUSES    = ["Active", "Draft", "Paused", "Expired", "Cancelled"];
 
 const COLOR: Record<string, string> = {
   Gym: "#f97316", Salon: "#ec4899", Turf: "#22c55e",
@@ -138,7 +137,7 @@ export default function App() {
   const [loginPassword, setLoginPassword] = useState("");
   const [loginErr,      setLoginErr]      = useState("");
   const [loginLoading,  setLoginLoading]  = useState(false);
-  const isLoggedIn = !!token();
+
 
   // ── public: offers list ────────────────────────────────
   // This is THE single source of truth for the public page.

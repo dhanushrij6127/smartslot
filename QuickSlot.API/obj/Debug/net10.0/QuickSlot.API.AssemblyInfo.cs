@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickSlot.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df8f4e70f7692241c92dd8db986598f349ebc0e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickSlot.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickSlot.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
